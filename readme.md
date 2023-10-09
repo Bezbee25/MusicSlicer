@@ -41,7 +41,7 @@ To use this program, follow these steps:
 ## Example Usage
 
 ```bash
-python audio_recorder.py -f 44100 -c 2 -r 1024 -t 0.05 -d 30 -s 0.1 -m 60 -p Output -n recording
+python main.py -f 44100 -c 2 -r 1024 -t 0.05 -d 30 -s 0.1 -m 60 -p Output -n recording
 ```
 
 This command will start recording audio with a 44.1 kHz sampling rate, 2 channels, a chunk size of 1024, a recording threshold of 0.05, a minimum silence duration of 30 seconds to stop recording, a silence threshold of 0.1 between songs, a minimum music duration of 60 seconds, and save the MP3 files in the "Output" directory with the base filename "recording."
